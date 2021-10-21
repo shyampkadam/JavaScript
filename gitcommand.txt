@@ -1,0 +1,49 @@
+1==> npx gitignore node
+2==> git add .
+3==> git init
+4==> git add .
+5==> git commit -m "jsdemo"
+6==> git remote add origin "https://github.com/shyampkadam/JavaScript.git"
+7==> git push -u origin master
+
+
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\Users\Sagar\Desktop\JavaScript> npx gitignore node
+npx: installed 1 in 21.023s
+Created .gitignore file for flag type node.
+PS C:\Users\Sagar\Desktop\JavaScript> git add .
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\Sagar\Desktop\JavaScript> git init
+Initialized empty Git repository in C:/Users/Sagar/Desktop/JavaScript/.git/
+PS C:\Users\Sagar\Desktop\JavaScript> git add .
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+PS C:\Users\Sagar\Desktop\JavaScript> git commit -m "jsdemo"
+[master (root-commit) be6cf5e] jsdemo
+ 2 files changed, 134 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 demo.js
+PS C:\Users\Sagar\Desktop\JavaScript> git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+PS C:\Users\Sagar\Desktop\JavaScript> git remote add origin "https://github.com/shyampkadam/JavaScript.git"
+PS C:\Users\Sagar\Desktop\JavaScript> git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.23 KiB | 36.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/shyampkadam/JavaScript/pull/new/master
+remote:
+To https://github.com/shyampkadam/JavaScript.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
